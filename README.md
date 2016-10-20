@@ -1,4 +1,4 @@
-# Video_SDK_iOS
+# DomobVideoSDK
 
 ####1．必要条件
 
