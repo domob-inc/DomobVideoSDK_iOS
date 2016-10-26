@@ -45,6 +45,13 @@ Publisher ID。
 
 ##DOMOB iOS independent video sdk changelog
 
+###3.3.5&emsp;&emsp;2016/10/26
+
+1.修改获取视频状态的逻辑
+
+2.线程优化
+
+=================================
 ###3.3.4&emsp;&emsp;2016/10/17
 
 1.优化iOS10系统下获取idfa为0值时无视频的弹窗提示
