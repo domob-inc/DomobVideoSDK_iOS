@@ -106,10 +106,6 @@ isIndependentVideoAvailable:(BOOL)available;
  */
 @property (nonatomic, assign) BOOL should4GDownload;
 /**
- * !注意: 仅非激励视频(unreawding video)使用  开发者配置的视频展现时间
- */
-@property (nonatomic, assign) NSTimeInterval unrewardingTime;
-/**
  *  用于展示sotre或者展示类广告
  */
 @property(nonatomic,assign)UIViewController *rootViewController;
