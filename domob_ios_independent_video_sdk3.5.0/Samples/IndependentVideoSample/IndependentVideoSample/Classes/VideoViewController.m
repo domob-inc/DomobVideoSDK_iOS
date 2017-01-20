@@ -120,9 +120,11 @@ isIndependentVideoAvailable:(BOOL)available {
       
     if (available) {
         _label.text = [NSString stringWithFormat:@"有视频"];
+        NSLog(@"有视频");
     }
     else {
         _label.text = [NSString stringWithFormat:@"暂无视频"];
+        NSLog(@"无视频");
     }
 }
 
