@@ -36,10 +36,12 @@
 		4F30F16F1A2E095F00E8EA80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F30F15B1A2E095F00E8EA80 /* Images.xcassets */; };
 		4F30F1701A2E095F00E8EA80 /* IndependentVideoSample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F30F15C1A2E095F00E8EA80 /* IndependentVideoSample-Info.plist */; };
 		4F30F1711A2E095F00E8EA80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F30F15E1A2E095F00E8EA80 /* main.m */; };
-		DA01D7141C7F0987008BBD88 /* IndependentVideoBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DA01D7131C7F0987008BBD88 /* IndependentVideoBundle.bundle */; };
 		DA3EFBD71C3509AD0096CEDB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3EFBD61C3509AD0096CEDB /* libsqlite3.tbd */; };
-		DA9615831C43B99E00DC5564 /* libIndependentVideoSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9615821C43B99E00DC5564 /* libIndependentVideoSDK.a */; };
 		F07FEAE51D543BD9004934BC /* VideoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F07FEAE41D543BD9004934BC /* VideoViewController.storyboard */; };
+		F09FFC181E3488BC00A2FAC5 /* DMLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F09FFC141E3488BC00A2FAC5 /* DMLocalizable.strings */; };
+		F09FFC191E3488BC00A2FAC5 /* IndependentVideoBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F09FFC161E3488BC00A2FAC5 /* IndependentVideoBundle.bundle */; };
+		F09FFC1A1E3709D800A2FAC5 /* libIndependentVideoSDK.a in Resources */ = {isa = PBXBuildFile; fileRef = DA9615821C43B99E00DC5564 /* libIndependentVideoSDK.a */; };
+		F09FFC1B1E3709F400A2FAC5 /* libIndependentVideoSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9615821C43B99E00DC5564 /* libIndependentVideoSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,10 +81,12 @@
 		4F30F15D1A2E095F00E8EA80 /* IndependentVideoSample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IndependentVideoSample-Prefix.pch"; sourceTree = "<group>"; };
 		4F30F15E1A2E095F00E8EA80 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C79EEFB31ADBD1A40097831B /* IndependentVideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndependentVideoManager.h; sourceTree = "<group>"; };
-		DA01D7131C7F0987008BBD88 /* IndependentVideoBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IndependentVideoBundle.bundle; sourceTree = "<group>"; };
 		DA3EFBD61C3509AD0096CEDB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		DA9615821C43B99E00DC5564 /* libIndependentVideoSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIndependentVideoSDK.a; sourceTree = "<group>"; };
 		F07FEAE41D543BD9004934BC /* VideoViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VideoViewController.storyboard; sourceTree = "<group>"; };
+		F09FFC151E3488BC00A2FAC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DMLocalizable.strings; sourceTree = "<group>"; };
+		F09FFC161E3488BC00A2FAC5 /* IndependentVideoBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IndependentVideoBundle.bundle; sourceTree = "<group>"; };
+		F09FFC171E3488BC00A2FAC5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DMLocalizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F09FFC1B1E3709F400A2FAC5 /* libIndependentVideoSDK.a in Frameworks */,
 				DA3EFBD71C3509AD0096CEDB /* libsqlite3.tbd in Frameworks */,
-				DA9615831C43B99E00DC5564 /* libIndependentVideoSDK.a in Frameworks */,
 				4F13277A19989B4F00B3502C /* MessageUI.framework in Frameworks */,
 				4F13277819989B4300B3502C /* SystemConfiguration.framework in Frameworks */,
 				4F13277219989B1A00B3502C /* CoreLocation.framework in Frameworks */,
@@ -189,8 +193,8 @@
 		C79EEFB11ADBD1A40097831B /* IndependentVideoSDK */ = {
 			isa = PBXGroup;
 			children = (
+				F09FFC131E3488BC00A2FAC5 /* Resource */,
 				DA9615821C43B99E00DC5564 /* libIndependentVideoSDK.a */,
-				DA01D7131C7F0987008BBD88 /* IndependentVideoBundle.bundle */,
 				C79EEFB21ADBD1A40097831B /* Headers */,
 			);
 			path = IndependentVideoSDK;
@@ -202,6 +206,15 @@
 				C79EEFB31ADBD1A40097831B /* IndependentVideoManager.h */,
 			);
 			path = Headers;
+			sourceTree = "<group>";
+		};
+		F09FFC131E3488BC00A2FAC5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F09FFC141E3488BC00A2FAC5 /* DMLocalizable.strings */,
+				F09FFC161E3488BC00A2FAC5 /* IndependentVideoBundle.bundle */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +258,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 4F13271A19986A2100B3502C;
 			productRefGroup = 4F13272419986A2100B3502C /* Products */;
@@ -261,11 +275,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F09FFC1A1E3709D800A2FAC5 /* libIndependentVideoSDK.a in Resources */,
 				4F30F16A1A2E095F00E8EA80 /* icon_144.png in Resources */,
 				4F30F1661A2E095F00E8EA80 /* Default@2x.png in Resources */,
 				4F30F1681A2E095F00E8EA80 /* icon_114.png in Resources */,
 				4F30F1671A2E095F00E8EA80 /* InfoPlist.strings in Resources */,
-				DA01D7141C7F0987008BBD88 /* IndependentVideoBundle.bundle in Resources */,
+				F09FFC191E3488BC00A2FAC5 /* IndependentVideoBundle.bundle in Resources */,
 				4F30F16C1A2E095F00E8EA80 /* icon_57.png in Resources */,
 				4F30F1701A2E095F00E8EA80 /* IndependentVideoSample-Info.plist in Resources */,
 				4F30F1641A2E095F00E8EA80 /* Default-568h@2x.png in Resources */,
@@ -276,6 +291,7 @@
 				4F30F16B1A2E095F00E8EA80 /* icon_152.png in Resources */,
 				4F30F16D1A2E095F00E8EA80 /* icon_72.png in Resources */,
 				F07FEAE51D543BD9004934BC /* VideoViewController.storyboard in Resources */,
+				F09FFC181E3488BC00A2FAC5 /* DMLocalizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +318,15 @@
 				4F30F1531A2E095F00E8EA80 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F09FFC141E3488BC00A2FAC5 /* DMLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09FFC151E3488BC00A2FAC5 /* en */,
+				F09FFC171E3488BC00A2FAC5 /* zh-Hans */,
+			);
+			name = DMLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -396,12 +421,12 @@
 					"$(PROJECT_DIR)/IndependentVideoSample/IndependentVideoSDK",
 					"$(PROJECT_DIR)/IndependentVideoSDK",
 				);
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VideoSDKDemoFLD.30501;
 				PRODUCT_NAME = IndependentVideoSample;
 				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = "armv7 armv7s arm64";
+				VALID_ARCHS = "armv7 arm64 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -428,7 +453,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.VideoSDKDemoFLD.30501;
 				PRODUCT_NAME = IndependentVideoSample;
 				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = "armv7 armv7s arm64";
+				VALID_ARCHS = "armv7 arm64 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

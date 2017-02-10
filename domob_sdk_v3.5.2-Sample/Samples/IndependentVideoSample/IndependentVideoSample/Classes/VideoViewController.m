@@ -31,7 +31,7 @@
     _playButton.enabled = NO;
         
     //初始化方法 96ZJ2RsQzeNxTwTCsB 96ZJ36PAzfhNjwTPP6
-    _manager = [[IndependentVideoManager alloc] initWithPublisherID:@"96ZJ0jAwzfkVnwTPKY" andUserID:nil];
+    _manager = [[IndependentVideoManager alloc] initWithPublisherID:@"96ZJ36PAzfhNjwTPP6" andUserID:nil];
     //设置代理
     _manager.delegate = self;
     
