@@ -46,6 +46,11 @@ Publisher ID。
 ##DOMOB iOS independent video sdk changelog
 
 =================================
+###3.5.5&emsp;&emsp;2017/02/20
+
+1.优化弹窗时机
+
+=================================
 ###3.5.2&emsp;&emsp;2017/01/13
 
 1.bug fix
