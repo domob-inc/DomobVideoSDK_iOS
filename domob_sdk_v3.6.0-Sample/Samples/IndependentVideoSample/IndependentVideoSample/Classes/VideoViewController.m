@@ -95,7 +95,7 @@ failedLoadWithError:(NSError *)error {
     NSLog(@"<demo>VideoDidClosed");
     _playButton.enabled = NO;
     _label.text = @"";
-    [manager checkVideoAvailable];
+//    [manager checkVideoAvailable];
 }
 // 视频播放完成
 - (void)ivManagerCompletePlayVideo:(IndependentVideoManager *)manager{
